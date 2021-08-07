@@ -1,0 +1,29 @@
+RewriteEngine On
+
+php_flag output_buffering on
+RewriteRule (.*) src/$1 [L]
+#forum
+RewriteRule (.*) forum/$1 [L]
+
+#bourses
+RewriteRule (.*) bourses/$1 [L]
+
+#bourses
+RewriteRule (.*) logements/$1 [L]
+
+#concours
+RewriteRule (.*) concours/$1 [L]
+
+#informations
+RewriteRule (.*) informations/$1 [L]
+
+#actualites
+RewriteRule (.*) actualites/$1 [L]
+
+
+#informations
+RewriteRule (.*) informations/$1 [L]
+
+
+#publicites
+RewriteRule (.*) publicites/$1 [L]
